@@ -52,7 +52,7 @@ All the methods excluding `init` are used for routing, please refer to the [Rout
 
 This method do two things:
 
-1. Creates a `node:http` server passing to it the `handle` function from [Router](./router) class as a callback passing to it the [Context](./context.md) object.
+1. Creates a `node:http` server passing to it the `handle` function from [Router](./routing) class as a callback passing to it the [Context](./context) object.
 
 2. Starts listening on the choosen port or the default one `9004`. This function can receive an argument called `after` that will be executed as a callback after the server rise up, and here for example you can put your database start or just a log.
 

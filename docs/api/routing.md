@@ -72,7 +72,7 @@ const app = new Lotto({
 
 ## `use()`: Middleware
 
-If you want to use some custom middleware or even our ones that are not inserted on the framework like [@lottojs/cors](./middlewares/cors) you have some ways to do that:
+If you want to use some custom middleware or even our ones that are not inserted on the framework like [@lottojs/cors](../middlewares/cors) you have some ways to do that:
 
 1. Using the `use` function and register a middleware for all routes.
 

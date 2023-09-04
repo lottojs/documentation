@@ -78,7 +78,7 @@ Todas as formas de contribuição são mais que bem-vindas! Você pode contribui
 - Compartilhe o projeto com os seus amigos
 - Faça uma aplicação utilizando `Lotto`.
 
-Para obter mais detalhes, consulte o nosso [Guia de Contribuição]().
+Para obter mais detalhes, consulte o nosso Guia de Contribuição.
 
 ## Outros recursos
 

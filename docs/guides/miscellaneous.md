@@ -77,7 +77,7 @@ All forms of contributions are more than welcome! You can contribute in the foll
 - Share with your friends
 - Make your application with `Lotto`.
 
-For more details, see [Contribution Guide]().
+For more details, see Contribution Guide.
 
 ## Other Resources
 

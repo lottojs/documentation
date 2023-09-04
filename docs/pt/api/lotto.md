@@ -52,7 +52,7 @@ Todos os métodos, exceto `init`, são usados para roteamento, consulte a seçã
 
 Este método faz duas coisas:
 
-1. Cria um servidor `node:http` passando para ele a função `handle` da classe [Router](./router) como um retorno de chamada passando para ele o objeto [Context](./context.md).
+1. Cria um servidor `node:http` passando para ele a função `handle` da classe [Router](./routing) como um retorno de chamada passando para ele o objeto [Context](./context).
 
 2. Começa a escutar na porta escolhida ou na porta padrão `9004`. Esta função pode receber um argumento chamado `after` que será executado como um callback após o servidor subir, e aqui por exemplo você pode colocar o início do seu banco de dados ou apenas um log.
 
