@@ -1,0 +1,10 @@
+:root {
+  --vp-c-brand-1: #10b981;
+  --vp-c-brand-2: #059669;
+  --vp-c-brand-3: var(--vp-c-green-3);
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit !important;
+}
