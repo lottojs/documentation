@@ -23,6 +23,6 @@ Every single part is fully open source! Fork it, extend it, or deploy it to your
 
 **Lotto** is a free and open-source project that relies on help from our community to grow. Below are a few simple things you can do to help us build a better **Lotto** framework.
 
-- [Tweet about Lotto](https://twitter.com/intent/tweet?text=I%20recently%20started%20using%20@LottoJS%20as%20a%20free,%20open-source%20read-it-later%20app.%20Check%20it%20out:%20<https://lottojs.dev)
+- [Tweet about Lotto](https://twitter.com/intent/tweet?text=I%20recently%20started%20using%20@LottoJS%20as%20a%20free,%20open-source%20read-it-later%20app.%20Check%20it%20out:%20<https://lottojs.tech)
 - [Follow us on Twitter](https://twitter.com/lottojs)
 - [Star on GitHub](https://github.com/lottojs/lotto)

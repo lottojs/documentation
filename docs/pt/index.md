@@ -22,6 +22,6 @@ Cada parte é totalmente código aberto! Forque-o, estenda-o ou implante-o em se
 
 **Lotto** é um projeto grátis e open-source que  that que depende da comunidade para crescer. Abaixo estão algumas coisas simples que você pode fazer para nos ajudar a construir **Lotto** framework melhor.
 
-- [Tweet sobre Lotto](https://twitter.com/intent/tweet?text=I%20recently%20started%20using%20@LottoJS%20as%20a%20free,%20open-source%20read-it-later%20app.%20Check%20it%20out:%20<https://lottojs.dev)
+- [Tweet sobre Lotto](https://twitter.com/intent/tweet?text=I%20recently%20started%20using%20@LottoJS%20as%20a%20free,%20open-source%20read-it-later%20app.%20Check%20it%20out:%20<https://lottojs.tech)
 - [Siga-nos no Twitter](https://twitter.com/lottojs)
 - [Dê uma estrela no GitHub](https://github.com/lottojs/lotto)

@@ -31,7 +31,7 @@
 
 ## About The Project
 
-Basically this project is the documentation portal for [@lottojs/lotto](https://github.com/lottojs/lotto) project and is available at [lotto.dev](https://lotto.dev).
+Basically this project is the documentation portal for [@lottojs/lotto](https://github.com/lottojs/lotto) project and is available at [lotto.tech](https://lotto.tech).
 
 
 ## License
