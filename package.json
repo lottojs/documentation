@@ -27,8 +27,6 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "flexsearch": "^0.7.31",
-    "vitepress": "1.0.0-rc.10",
-    "vitepress-plugin-search": "^1.0.4-alpha.20"
+    "vitepress": "1.0.0-rc.10"
   }
 }

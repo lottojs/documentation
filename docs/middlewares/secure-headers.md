@@ -11,4 +11,4 @@ editLink: true
 
 ## Coming Soon
 
-Cooming soon.
+Coming soon.

@@ -5,8 +5,6 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-`@lottojs/body-parser` is one of our built-in middlewares that enable you to parse the http request body from `POST`, `PUT` and `PATCH` requests.
-
 [[toc]]
 
 ## Another `Lotto` Projects

@@ -1,5 +1,5 @@
 ---
-title: Validation
+title: Validazione
 editLink: true
 ---
 
@@ -8,6 +8,6 @@ editLink: true
 
 [[toc]]
 
-## Coming Soon
+## Prossimamente
 
-Coming soon.
+Prossimamente.

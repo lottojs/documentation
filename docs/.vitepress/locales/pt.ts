@@ -13,6 +13,13 @@ export const themeConfig: DefaultTheme.Config = {
   outline: {
     label: 'Nesta página'
   },
+  docFooter: {
+    next: 'Próxima página',
+    prev: 'Página Anterior'
+  },
+  lastUpdated: {
+    text: 'Última atualização'
+  },
   sidebar: [
     {
       text: "Introdução",
@@ -63,5 +70,25 @@ export const pt: LocaleConfig<DefaultTheme.Config>[string] = {
   lang: "pt",
   title,
   description,
-  themeConfig,
+  themeConfig: {
+    ...themeConfig,
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          modal: {
+            noResultsText: 'Nenhum resultado para',
+            footer: {
+              closeText: 'fechar',
+              selectText: 'selecionar',
+              navigateText: 'navegar'
+            }
+          },
+          button: {
+            buttonText: 'Busca'
+          }
+        }
+      }
+    }
+  },
 };

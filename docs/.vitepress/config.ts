@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-// import { SearchPlugin } from "vitepress-plugin-search"
 
 import { en } from "./locales/en";
 import { it } from "./locales/it";
@@ -13,32 +12,22 @@ export default defineConfig({
     it,
     pt
   },
-  // themeConfig: {
-  //   search: {
-  //     provider: 'local',
-  //     options: {
-  //       _render(src, env, md) {
-  //         const html = md.render(src, env)
-  //         // console.log(`# ${env.frontmatter.title}`)
-  //         if (env.frontmatter?.title)
-  //         return html
-  //         return html
-  //       },
-  //       detailedView: true,
+  themeConfig: {
+    search: {
+      provider: 'local',
+      options: {
+        _render(src, env, md) {
+          let html = md.render(src, env);
+          if (env.frontmatter?.title) {
+            src = src.replace('{{ $frontmatter.title }}', String(env.frontmatter.title))
+            html = md.render(src, env);
+          }
+          
+          return html
+        },
         
-  //     }
-  //   }
-  // }
-  // vite: {
-    // plugins: [SearchPlugin({
-    //   previewLength: 62,
-    //   buttonLabel: "Search",
-    //   placeholder: "Search docs",
-    //   allow: [],
-    //   ignore: [],
-    // })]
-    // search: {
-      // provider: 'local'
-    // }
-  // }
+        detailedView: true,
+      }
+    }
+  }
 });

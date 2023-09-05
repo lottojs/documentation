@@ -11,6 +11,6 @@ Need some help to build your first `Lotto` application?
 
 ## Github Examples
 
-Actually on our [`Github`](https://github.com/lottojs/lotto) we have one sample explaining our main funcionalities but as soon as possible we will add more.
+Actually on our [`Github`](https://github.com/lottojs/lotto) we have one sample explaining our main functionalities but as soon as possible we will add more.
 
 - [Samples](https://github.com/lottojs/lotto/tree/main/sample)

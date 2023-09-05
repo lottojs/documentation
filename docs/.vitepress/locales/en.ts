@@ -13,6 +13,13 @@ export const themeConfig: DefaultTheme.Config = {
   outline: {
     label: 'On this page'
   },
+  docFooter: {
+    next: 'Next page',
+    prev: 'Previous page'
+  },
+    lastUpdated: {
+    text: 'Last updated'
+  },
   sidebar: [
     {
       text: "Getting Started",
@@ -64,5 +71,25 @@ export const en: LocaleConfig<DefaultTheme.Config>[string] = {
   lang: "en",
   title,
   description,
-  themeConfig,
+  themeConfig: {
+    ...themeConfig,
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          modal: {
+            noResultsText: 'No results for',
+            footer: {
+              closeText: 'to close',
+              selectText: 'to select',
+              navigateText: 'to navigate'
+            }
+          },
+          button: {
+            buttonText: 'Search'
+          }
+        }
+      }
+    }
+  },
 };

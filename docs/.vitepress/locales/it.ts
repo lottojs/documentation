@@ -13,6 +13,13 @@ export const themeConfig: DefaultTheme.Config = {
   outline: {
     label: 'Su questa pagina'
   },
+  docFooter: {
+    next: 'Pagina successiva',
+    prev: 'Pagina precedente'
+  },
+  lastUpdated: {
+    text: 'Ultimo aggiornamento'
+  },
   sidebar: [
     {
       text: "Introduzione",
@@ -54,7 +61,7 @@ export const themeConfig: DefaultTheme.Config = {
         { text: "Secure Headers", link: "/it/middlewares/secure-headers" },
       ],
     }
-  ],
+  ]
 };
 export const title = "LottoJS";
 export const description = "Documentazione per il framework web LottoJS.";
@@ -63,5 +70,25 @@ export const it: LocaleConfig<DefaultTheme.Config>[string] = {
   lang: "it",
   title,
   description,
-  themeConfig,
+  themeConfig: {
+    ...themeConfig,
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          modal: {
+            noResultsText: 'Nessun risultato per',
+            footer: {
+              closeText: 'chiudere',
+              selectText: 'selezionare',
+              navigateText: 'navigare'
+            }
+          },
+          button: {
+            buttonText: 'Ricerca'
+          }
+        }
+      }
+    }
+  },
 };

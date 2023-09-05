@@ -4,5 +4,5 @@ export const themeConfig = {
   socialLinks: [
     { icon: 'github', link: 'https://github.com/lottojs/lotto' },
     { icon: 'twitter', link: 'https://twitter.com/lottojs' }
-  ],
+  ]
 } satisfies DefaultTheme.Config
