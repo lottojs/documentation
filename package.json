@@ -35,7 +35,7 @@
     "vitepress": "1.0.0-rc.10"
   },
   "lint-staged": {
-    "src/**/*": "npm run lint"
+    "docs/**/*": "npm run lint"
   },
   "validate-branch-name": {
     "pattern": "^(master|main|develop){1}$|^(feat|fix|imp|release)\/.+$"
